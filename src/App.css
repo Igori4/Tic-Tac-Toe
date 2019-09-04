@@ -110,10 +110,11 @@ h3 {
   .Game {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   .board {
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 
