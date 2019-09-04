@@ -4,6 +4,7 @@ class Board extends React.Component {
   constructor(props) {
     super(props)
   }
+  
   renderResetButton(winner, stepCounter) {
     if (winner || stepCounter === 10) {
       return (
